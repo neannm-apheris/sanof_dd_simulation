@@ -1,0 +1,21 @@
+name: chemprop
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab
+  - nbconvert=7.16
+  - nbformat=5.10
+  - numpy=1.26
+  - pandas=2.1
+  - scipy
+  - scikit-learn
+  - statsmodels=0.14
+  - matplotlib
+  - seaborn=0.13
+  - rdkit=2024.03
+  - pip:
+      - chemprop==2.2.4
+      - lightning==2.5.5
+      - torch==2.10.0
